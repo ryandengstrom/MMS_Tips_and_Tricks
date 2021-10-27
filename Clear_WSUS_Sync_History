@@ -1,0 +1,3 @@
+Use SUSDB
+
+DELETE FROM tbEventInstance WHERE EventNamespaceID = '2' AND EventID IN ('381', '382', '384', '386', '387', '389') AND TimeAtServer < '2021-10-25'
